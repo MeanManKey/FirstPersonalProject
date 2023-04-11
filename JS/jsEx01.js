@@ -8,4 +8,4 @@ let bool = true
 const color2= "pink"
 //const로 선언한 변수의 값은 바꿀수 없다, 고정시켜야되는 값들은 const로 저장
 console.log(password)
-//var로도 저장이 가능하지만 쓰지마
+//var로도 저장이 가능하지만 쓰지마ㅎ
