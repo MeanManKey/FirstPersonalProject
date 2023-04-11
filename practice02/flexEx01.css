@@ -1,0 +1,16 @@
+
+.mom{
+    display: flex;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.sub{
+    justify-content: flex-end;
+}
+.sub.box{
+    justify-content: space-between;
+}

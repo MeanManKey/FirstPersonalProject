@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 선택자</title>
+    <style>
+        #header > h1{
+            color:aqua;
+        }
+        #section h1{
+            color:green;
+        }
+        h1 {
+            background-color: aliceblue;
+        }
+        h1:active{
+            color:red;
+        }
+        h1:hover{
+            color:purple;
+        }
+        ul {
+            overflow: hidden;
+        }
+        li{
+            list-style: none;
+            float: left;
+            padding: 15px;
+        }
+        li:nth-child(2n){
+            background-color: aqua;
+        }
+        li:nth-child(2n+1){
+            background-color: aquamarine;
+            font-size: 2em;
+        }
+        li:first-child{
+            border-radius: 10px 0 0 10px;
+        }
+        li:last-child{
+            border-radius: 0 10px 10px 0;
+        }
+        li:first-child > a{
+            text-decoration: none;
+            color: blue;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 20px;
+        }
+        .box:active{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1 class="title">첫번째 제목</h1>
+        <div id="nav">
+            <h1>메뉴 항목</h1>
+        </div>
+    </div>
+    <div id="section">
+        <h1 class="title">두번째 제목</h1>
+        <p>본문내용 입니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+    </div>
+    <ul>
+        <li><a href="#">내용</a></li>
+        <li>내용</li>
+        <li>내용</li>
+        <li>내용</li>
+        <li>내용</li>
+        <li>내용</li>
+        <li>내용</li>
+    </ul>
+    <div class="box">Box1</div>
+    <div class="box">Box2</div>
+    <div class="box">Box3</div>
+</body>
+</html>

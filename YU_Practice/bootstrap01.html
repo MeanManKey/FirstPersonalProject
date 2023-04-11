@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*body의 크기를 100%로 해버리면 예제와 같은 모양이 나오진 않으므로
+        width, height값은 각각 50%을 부여하여 최대한 예제와 비슷하게 나오도록 작성하였습니다*/
+        body{
+            width:50%;
+            height:50%;
+        }
+        /*원래는 img에도 class를 부여하여 조절해주는 것이 안전하지만
+        이 예제에서는 img태그를 2개만 사용하기도 하고 그냥 img태그에 css를 부여해도 문제가 되지않기때문에 이렇게 사용했습니다*/
+        img {
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        /*일단 "first"클래스에 있는 img보다 "second"클래스에 있는 img의 크기가 더 작으므로
+        css를 덮어서 사용해주었습니다*/
+        .second>img{
+            width:5em;
+            height:5em;
+        }
+    </style>
+</head>
+<body>
+    <!--구역을 구분하기위해 div태그를 사용했습니다
+    물론 여기서 "first"클래스는 사용하지않지만 뒤의 그림 "second"클래스의 img라는 점을 직관적으로 표현하기위해
+    편의상 first클래스를 부여만 했습니다-->
+    <div class="first">
+        <img src="http://placekitten.com/150/150" alt="고양이"/>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <br/>
+    <div class="second">
+        <img src="http://placekitten.com/150/150" alt="고양이"/>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+</body>
+</html>

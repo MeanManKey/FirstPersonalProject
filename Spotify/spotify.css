@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #1ed760;
+}
+nav{
+    display: flex;
+    height: 80px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    height: 969px;
+    background-color: rgb(41,65,171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    height: 530px;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 0px 50px 0px;
+}
+
+.nav-item{
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+.headline{
+    position: relative;
+    font-size: 160px;
+    font-weight: 900;
+    color: #1ed760;
+    left: 225px;
+    padding-bottom: 40px;
+
+}
+.headline-first{
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline{
+    color:#1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+.button-area{
+    text-align: center;
+}
+
+.button-style{
+    padding:14px 32px;
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+.button-style:hover{
+    transform: scale(1.1);
+}
+.footer-main{
+    width: 1170px;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.six{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.four{
+    width: 40%;
+}
+.six-contents{
+    display: flex;
+    flex-direction: column;
+}
+.six-headline{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.six-contents a{
+    padding: 3px 0px 15px 0px;
+    font-size: 16px;
+}
+.usa{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    color: #919496;
+}
+.footer-last{
+    display: flex;
+    color: #919496;
+}
+.footer-last a{
+    color: #919496;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.footer-last a:hover{
+    color: #1ed760;
+}
+.footer-last span{
+    position: relative;
+    left: 230px;
+    padding-right: 50px;
+}

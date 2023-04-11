@@ -1,0 +1,31 @@
+.container{
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 293px;
+}
+.foot{
+    display: flex;
+}
+.foot-last{
+    display: flex;
+    justify-content: space-between;
+}
+.america-image{
+    width: 16px;
+    height: 12px;
+}
+.foot-first{
+    height:118px;
+    border-bottom: 1px solid lightgray;
+}
+.last-compo{
+    display: flex;
+    
+}
